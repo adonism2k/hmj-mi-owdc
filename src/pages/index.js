@@ -7,7 +7,6 @@ import Features from "../components/Features";
 import WorkProgram from "../components/WorkProgram";
 import Peoples from "../components/Peoples";
 import Articles from "../components/Articles";
-import Hand from "../images/Hand.svg";
 import "../styles/app.scss";
 
 const achievementContent = [
@@ -42,20 +41,20 @@ const HomePage = () => {
           yang positif kepada masyarakat #BersamaHMJMI.
         </p>
         <div id="cta">
-          <a
+          <button
             onClick={() => {
               scrollTo("#joinUs");
             }}
             className="btn-secondary"
           >
             Daftar Sekarang
-          </a>
+          </button>
           <Link to="/profil" className="btn-minimal">
             Lihat Profil Kami
           </Link>
         </div>
         <div id="navigateToBottom">
-          <a
+          <button
             onClick={() => {
               scrollTo("#featured");
             }}
@@ -67,10 +66,15 @@ const HomePage = () => {
               layout="fixed"
               width={50}
             />
-          </a>
+          </button>
         </div>
         <div id="hand">
-          <img src={Hand} alt="Hand" width={200} />
+          <StaticImage
+            src="../images/Hand.svg"
+            alt="Hand"
+            placeholder="blurred"
+            width={200}
+          />
         </div>
       </section>
 

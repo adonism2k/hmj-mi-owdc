@@ -90,7 +90,7 @@ const Footer = () => {
               {socialMedia.map((social, index) => {
                 const { icon, platform, username, link } = social;
                 return (
-                  <div id={platform} className="social">
+                  <div id={platform} className="social" key={index}>
                     <img src={icon} alt={username} />
                     <a href={link}>{username}</a>
                   </div>
