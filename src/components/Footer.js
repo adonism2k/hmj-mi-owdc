@@ -101,7 +101,7 @@ const Footer = () => {
           <div className="menu">
             <h5 className="title">Menu</h5>
             <nav className="menus">
-              <Link to="/home">Home</Link>
+              <Link to="/">Home</Link>
               <Link to="/profil">Profil</Link>
               <Link to="/departemen">Departemen</Link>
               <Link to="/artikel">Artikel</Link>

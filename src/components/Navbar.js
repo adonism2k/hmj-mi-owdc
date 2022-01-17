@@ -10,15 +10,19 @@ const Navbar = (props) => {
       className="navbar"
     >
       <div className="logoWrapper">
-        <StaticImage
-          src="../images/logo/logo-HIMARAKSI.png"
-          alt="Logo HIMARAKSI"
-          placeholder="blurred"
-          layout="fixed"
-          width={60}
-          height={60}
-        />
-        <h3>himaraksi</h3>
+        <Link to="/">
+          <StaticImage
+            src="../images/logo/logo-HIMARAKSI.png"
+            alt="Logo HIMARAKSI"
+            placeholder="blurred"
+            layout="fixed"
+            width={60}
+            height={60}
+          />
+        </Link>
+        <Link to="/">
+          <h3>himaraksi</h3>
+        </Link>
       </div>
       <nav id="menu">
         <Link to="/" activeClassName="active">
