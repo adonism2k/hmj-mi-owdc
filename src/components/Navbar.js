@@ -35,13 +35,13 @@ const Navbar = (props) => {
         </Link>
       </nav>
       <nav id="contact">
-        <a
+        <button
           onClick={() => {
             scrollTo("#joinUs");
           }}
         >
           Contact
-        </a>
+        </button>
       </nav>
     </div>
   );

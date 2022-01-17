@@ -2,33 +2,32 @@ import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 import DefaultLayout from "../layouts/DefaultLayout";
 import scrollTo from "gatsby-plugin-smoothscroll";
-import CheckIcon from "../images/icon/CheckIcon.svg";
 import "../styles/app.scss";
 
-const missions = [
-  {
-    mission:
-      "Berkontribusi sebagai wadah dan penyalur aspirasi non akademik (bakat minat) dan potensi akademik mahasiswa manajemen informatika di berbagai kegiatan. Baik kegiatan didalam maupun luar kampus.",
-  },
-  {
-    mission:
-      "Berperan dalam mempererat kekeluargaan antar sesama pengurus HMJ Manajemen Informatika maupun seluruh masyarakat manajemen informatika.",
-  },
-  {
-    mission:
-      "Mengembangkan jiwa profesionalitas dalam pelaksanaan kegiatan HMJ Manajemen Informatika.",
-  },
-  {
-    mission:
-      "Mengoptimalkan fungsi-fungsional setiap Departemen dan Menyeleggarakan kegiatan yang mendukung tercapainya Mahasiswa Manajemen Informatika yang aktif.",
-  },
-  {
-    mission:
-      "Menjalin hubungan yang baik dengan cara memperluas jaringan dengan civitas akademika dan organisasi atau lembaga lain, baik didalam maupun diluar Manajemen Informatika STMIK AKAKOM Yogyakarta.",
-  },
-];
-
 const ProfilePage = () => {
+  const missions = [
+    {
+      mission:
+        "Berkontribusi sebagai wadah dan penyalur aspirasi non akademik (bakat minat) dan potensi akademik mahasiswa manajemen informatika di berbagai kegiatan. Baik kegiatan didalam maupun luar kampus.",
+    },
+    {
+      mission:
+        "Berperan dalam mempererat kekeluargaan antar sesama pengurus HMJ Manajemen Informatika maupun seluruh masyarakat manajemen informatika.",
+    },
+    {
+      mission:
+        "Mengembangkan jiwa profesionalitas dalam pelaksanaan kegiatan HMJ Manajemen Informatika.",
+    },
+    {
+      mission:
+        "Mengoptimalkan fungsi-fungsional setiap Departemen dan Menyeleggarakan kegiatan yang mendukung tercapainya Mahasiswa Manajemen Informatika yang aktif.",
+    },
+    {
+      mission:
+        "Menjalin hubungan yang baik dengan cara memperluas jaringan dengan civitas akademika dan organisasi atau lembaga lain, baik didalam maupun diluar Manajemen Informatika STMIK AKAKOM Yogyakarta.",
+    },
+  ];
+
   return (
     <DefaultLayout>
       <section id="profil">
@@ -82,7 +81,12 @@ const ProfilePage = () => {
           <div className="missions">
             {missions.map((mission, index) => (
               <div className="mission" key={index}>
-                <img src={CheckIcon} alt={mission.mission} />
+                <StaticImage
+                  src="../images/icon/CheckIcon.svg"
+                  alt={mission.mission}
+                  width={40}
+                  placeholder="blurred"
+                />
                 <p>{mission.mission}</p>
               </div>
             ))}

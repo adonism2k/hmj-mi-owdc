@@ -8,7 +8,7 @@ const ArticlesPage = () => {
     <DefaultLayout>
       <section id="articlePage">
         <h1 className="titlePage">Artikel</h1>
-        <Articles></Articles>
+        <Articles />
       </section>
     </DefaultLayout>
   );

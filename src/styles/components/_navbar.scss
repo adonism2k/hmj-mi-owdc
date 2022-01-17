@@ -40,7 +40,9 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    a {
+    button {
+      background: none;
+      border: none;
       font-size: 18px;
       text-decoration: none;
       color: #{$color-white};
@@ -90,7 +92,7 @@
     align-items: center;
     gap: 20px;
     a {
-      font-size: 18px;
+      font-size: 14px;
       text-decoration: none;
       color: #{$color-white};
       transition: all 0.3s ease;
@@ -107,8 +109,10 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    a {
-      font-size: 18px;
+    button {
+      background: none;
+      border: none;
+      font-size: 14px;
       text-decoration: none;
       color: #{$color-white};
       transition: all 0.3s ease;
