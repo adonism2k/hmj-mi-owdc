@@ -7,7 +7,7 @@
   HMJ Manajemen Informatika
 </h1>
 
-## 🧾 Requeirements
+## 🧾 Requirements
 
 1.  **NodeJS** >= 17.3.0
 2.  **npm** >= 8.3.0
@@ -20,28 +20,47 @@
 
 ## 🚀 Quick start
 
-1.  **Start developing.**
-    Navigate into your new site’s directory and start it up.
+1. **Install depedencies**
 
-    ```shell
-    cd develop_owdc
-    npm run develop
-    ```
+   Navigate into your new site’s directory and start it up.
 
-2.  **Open the code and start customizing!**
+   ```shell
+   cd develop_owdc
+   npm install
+   ```
 
-    Your site is now running at http://localhost:8000!
+2. **Start developing.**
 
-3.  **Learn more**
+   ```shell
+   npm run develop
+   ```
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+3. **Open the code and start customizing!**
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+   Your site is now running at http://localhost:8000!
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+4. **Change the browser breakpoint**
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+   > **Note: This website isn't responsive.**
 
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+   for better experience change the browser breakpoint with this steps:
 
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+   1. **inspect** the website,
+   2. toggle the **device emulation** by click **Ctrl+Shift+M**, or click on the top left of devtools,
+   3. on the top of website, **change the breakpoint** to **1440 x 900**
+
+   Due to time constraints, we did not add responsive features to this website
+
+5. **Learn more**
+
+   - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+
+   - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+
+   - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+
+   - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+
+   - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+
+   - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
