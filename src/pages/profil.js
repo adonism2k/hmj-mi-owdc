@@ -82,7 +82,7 @@ const ProfilePage = () => {
             {missions.map((mission, index) => (
               <div className="mission" key={index}>
                 <StaticImage
-                  src="../images/icon/CheckIcon.svg"
+                  src="../images/Icon/Check.svg"
                   alt={mission.mission}
                   width={40}
                   placeholder="blurred"
